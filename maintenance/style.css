@@ -1,0 +1,38 @@
+/*
+    Document   : style
+    Created on : May 20, 2010, 9:48:08 PM
+    Author     : Sterling
+    Description:
+        Stylesheet solely for the maintenance page
+*/
+
+body {
+	margin: 150px 0;
+	font-family: Verdana;
+	font-size: 1.2em;
+}
+
+#wrap {
+	margin: 0 auto;
+	padding-left: 300px;
+	width: 400px;
+	min-height: 300px;
+}
+
+#footer {
+	margin: 0 auto;
+	text-align: center;
+	font-size: .7em;
+}
+
+.bg1 {
+	background: #fff url('maintenance_1.png') top left no-repeat;
+}
+
+.bg2 {
+	background: #fff url('maintenance_2.png') top left no-repeat;
+}
+
+.bg3 {
+	background: #fff url('maintenance_3.png') top left no-repeat;
+}

@@ -1,0 +1,63 @@
+Options -Indexes
+RewriteEngine on
+
+#	REDIRECT OUT OF MAINTENANCE FOLDER DURING NON-MAINTENANCE TIMES
+	RewriteCond %{REMOTE_HOST} !^76\.8\.194\.230
+	RewriteRule maintenance/.* /index.php [R]
+
+#	MAINTENANCE-PAGE REDIRECT
+#	RewriteCond %{REMOTE_HOST} !^76\.8\.194\.230
+#	RewriteCond %{REQUEST_URI} !/maintenance/.*$ [NC]
+#	RewriteRule .* /maintenance/ [R=302,L]
+
+##################################
+#	REWRITES FOR SITE PAGES
+##################################
+
+	# Authenticate password reset
+	RewriteRule ^forgot-password/([a-z0-9]{32})/(.+@.+\..+)/?$ forgotpassword.php?code=$1&email=$2 [NC,L]
+
+	# Show forgot password page
+	RewriteRule ^forgot-password/?$ forgotpassword.php [NC,L]
+
+	# View an event
+	RewriteRule ^events/(2[0-9]{3})/([a-z0-9-]+)/?$ view-event.php?event_year=$1&event_name=$2 [NC,L]
+
+	# Edit an event
+	RewriteRule ^edit-event/(2[0-9]{3})/([a-z0-9-]+)/?$ edit-event.php?event_year=$1&event_name=$2 [NC,L]
+
+	# View an event's registrants
+	RewriteRule ^registrants/(2[0-9]{3})/([a-z0-9-]+)/?$ view-registrants.php?event_year=$1&event_name=$2 [NC,L]
+
+	# Online registration
+	RewriteRule ^register/(2[0-9]{3})/([a-z0-9-]+)/?$ event-registration.php?event_year=$1&event_name=$2 [NC,L]
+
+	RewriteRule ^new-account/?$ newaccount.php [NC,L]
+
+	RewriteRule ^events/?$ events.php [NC,L]
+
+	RewriteRule ^gait-analysis/?$ gait.php [NC,L]
+
+	RewriteRule ^equipment/?$ equipment.php [NC,L]
+
+	RewriteRule ^running-club/?$ runningclub.php [NC,L]
+
+	RewriteRule ^my-account/?$ myaccount.php [NC,L]
+
+	RewriteRule ^racing-team/?$ racingteam.php [NC,L]
+
+	RewriteRule ^racing-team/purpose/?$ racing-team/purpose.php [NC,L]
+
+	RewriteRule ^racing-team/team-bios/?$ racing-team/team-bios.php [NC,L]
+
+	RewriteRule ^racing-team/standards/?$ racing-team/standards.php [NC,L]
+
+	RewriteRule ^racing-team/sponsors/?$ racing-team/sponsors.php [NC,L]
+
+	RewriteRule ^racing-team/application/?$ racing-team/application.php [NC,L]
+
+#####################
+#  COUPONS
+#####################
+
+	RewriteRule ^coupons/halloween-half/?$ 262storecoupons/halloween-half.jpg [NC,L]

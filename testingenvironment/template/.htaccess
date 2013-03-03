@@ -1,0 +1,2 @@
+deny from all
+AuthUserFile "/home/n62run5/.htpasswds/public_html/core/passwd"

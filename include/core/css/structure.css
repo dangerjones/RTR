@@ -1,0 +1,81 @@
+html {
+	background: #4e4e4e url('images/body_bg.png') repeat-x;
+}
+
+body {
+	margin: 0;
+	font-size: .9em;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: auto;
+	width: 970px;
+}
+
+#header {
+	background: url('images/body_top.png') bottom center no-repeat;
+	height: 175px;
+}
+
+#left-header, #right-header {
+	height: 130px;
+}
+
+#left-header {
+	background: url('images/header_left.png') top left no-repeat;
+	width: 440px;
+	float: left;
+	cursor: pointer;
+}
+
+#right-header {
+	width: 500px;
+	padding-right: 30px;
+	text-align: right;
+	color: #fff;
+	float: right;
+}
+
+#bottom-header {
+	clear: both;
+	padding: 10px 20px;
+	padding-bottom: 0;
+	height: 35px;
+	text-align: right;
+}
+
+#content {
+	background: url('images/content_bg.png') top center repeat-y;
+	padding: 1px 35px;
+	min-height: 400px;
+	font-size: 1.2em;
+}
+
+#noscript {
+	background: url('images/content_bg.png') top center repeat-y;
+	font-size: 1.2em;
+	padding: 5px 0;
+}
+
+#rightbar {
+	background: url('images/rightbar_top.png') top left no-repeat;
+	padding: 15px;
+	text-align: right;
+}
+
+#rightbar-wrap {
+	width: 208px;
+	float: right;
+	margin: 0 0 10px 10px;
+	background: url('images/rightbar_body.png') bottom left no-repeat;
+	min-height: 339px;
+}
+
+#footer {
+	background: url('images/content_bottom.png') top center no-repeat;
+	padding: 65px 40px 0;
+	color: #fff;
+	text-align: center;
+	font-size: .75em;
+}

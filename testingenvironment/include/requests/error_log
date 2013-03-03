@@ -1,0 +1,17 @@
+[07-Jan-2011 10:31:19] PHP Warning:  require_once(../critical.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/n62run5/public_html/runthatrace.com/testingenvironment/include/requests/userIsLoggedIn.php on line 2
+[07-Jan-2011 10:31:19] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../critical.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/n62run5/php') in /home/n62run5/public_html/runthatrace.com/testingenvironment/include/requests/userIsLoggedIn.php on line 2
+[07-Jan-2011 10:31:29] PHP Warning:  require_once(../critical.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/n62run5/public_html/runthatrace.com/testingenvironment/include/requests/userIsLoggedIn.php on line 2
+[07-Jan-2011 10:31:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../critical.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/n62run5/php') in /home/n62run5/public_html/runthatrace.com/testingenvironment/include/requests/userIsLoggedIn.php on line 2
+[10-Jan-2011 14:58:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:58:18] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:58:28] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:58:39] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:58:49] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:58:59] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:59:09] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:59:19] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:59:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:59:40] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 14:59:50] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 15:00:01] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 52
+[10-Jan-2011 15:00:46] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/n62run5/public_html/runthatrace.com/testingenvironment/classes/mail.php on line 69

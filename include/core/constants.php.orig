@@ -1,0 +1,123 @@
+<?php
+/*
+ * Website's constants
+ */
+
+/*
+ * Testing? When true, all settings apply to test site, otherwise, live site settings are used
+ * Nothing needs to be edited except for this one variable
+ */
+define('TESTING', false);
+
+/*
+ * Database constants
+ */
+define('MYSQL_USER', (TESTING ? 'n62run5_website':'n62run5_website'));
+define('MYSQL_PASS', (TESTING ? 'RnPh);28@:CU':'RnPh);28@:CU'));
+define('MYSQL_DB', (TESTING ? 'n62run5_development':'n62run5_website'));
+define('MYSQL_HOST', 'localhost');
+define('TABLE_USER', 'users');
+define('TABLE_EVENTS', 'events');
+define('TABLE_PERSONAL', 'personal_info');
+define('TABLE_FRIENDS_FAMILY', 'friends_family');
+define('TABLE_RACES', 'event_races');
+define('TABLE_E_QUESTIONS', 'event_questions');
+define('TABLE_REG_METHODS', 'event_reg_method');
+define('TABLE_E_REGISTRANTS', 'event_registrants');
+define('TABLE_RECEVIED_PAYMENTS', 'received_payments');
+define('TABLE_E_COUPONS', 'event_coupons');
+define('TABLE_PASS_RESET', 'password_resets');
+define('TABLE_RACE_RESULTS', 'race_results');
+
+/*
+ * Paypal credentials
+ */
+define('PAYPAL_USER', (TESTING ? 'silver_1272661399_biz_api1.gmail.com':'dave_api1.262running.com'));
+define('PAYPAL_PASS', (TESTING ? '1272661405':'3BC497WT5N7HZ8GP'));
+define('PAYPAL_SIG', (TESTING ? 'A3fyMslNGV0wVb2jJOfNdoCu0.mZALV4GaAJkvZTWf8n8qhz9UpYbbjJ':'AFcWxV21C7fd0v3bYYYRCpSSRl31A6jXTMnkSkxz0dQuX2U4oYPJCAc2'));
+
+/*
+ * Web application constants
+ */
+define('SALT', 's^)oETf9fk.qOB_)(14o{-$Z');
+define('ADMIN_EMAIL', '26.2runningco@gmail.com');
+define('ROOT', $_SERVER['DOCUMENT_ROOT'] . '/');
+define('QUERY_LOG', ROOT. 'mysql_log');
+define('BASEURL', 'http://'. $_SERVER['HTTP_HOST'] .'/');
+define('MAX_EMAIL_LEN', 100);
+define('MIN_PASS_LEN', 5);
+define('E_MAX_Q', 5);
+define('DELIMITER', '<?>');
+define('UPLOADS_ABSOLUTE', ROOT .'uploads/');
+define('UPLOAD_FOLDER', '/uploads/');
+define('BANNER_MAX_WIDTH', 675);
+define('BANNER_MAX_HEIGHT', 100);
+define('CRITICAL_ERROR', 'Critical error! Please contact an administrator or try again later.');
+define('PASS_RESET_MAX', 3);
+
+/*
+ * Allowed image types for uploads
+ */
+$allowed_image_types = array('jpg', 'jpeg', 'png', 'gif');
+
+/*
+ * User levels
+ */
+define('LVL_ADMIN', 99);
+define('LVL_EMPLOYEE', 75);
+define('LVL_USER', 0);
+/*
+ * User tags
+ */
+define('LVL_ADMIN_TAG', 'Administrator');
+define('LVL_EMPLOYEE_TAG', 'Employee');
+define('LVL_USER_TAG', 'User');
+/*
+ * User statuses
+ */
+define('STATUS_BAN', -1);
+define('STATUS_OK', 0);
+define('STATUS_LOCK', 1);
+
+/*
+ * Type conversions
+ */
+// Event types
+$event_types = array();
+$event_types[0] = 'Road Race';
+$event_types[1] = 'Triathlon';
+$event_types[2] = 'Trail';
+$event_types[3] = 'Cycling';
+$event_types[4] = 'Track Meet';
+
+// Youth shirt sizes
+$youth_shirt_sizes = array();
+$youth_shirt_sizes[0] = 's';
+$youth_shirt_sizes[1] = 'm';
+$youth_shirt_sizes[2] = 'l';
+// Adult shirt sizes
+$adult_shirt_sizes = array();
+$adult_shirt_sizes[0] = 's';
+$adult_shirt_sizes[1] = 'm';
+$adult_shirt_sizes[2] = 'l';
+$adult_shirt_sizes[3] = 'xl';
+$adult_shirt_sizes[4] = 'xxl';
+$adult_shirt_sizes[5] = 'xxxl';
+
+// Distance measurements
+$race_distance_measurements = array();
+$race_distance_measurements[0] = 'km';
+$race_distance_measurements[1] = 'mi';
+
+// Submitted event statuses
+define('ESTATUS_INC', -1);
+define('ESTATUS_WAITING', 0);
+define('ESTATUS_OK', 1);
+define('ESTATUS_DENY', 2);
+define('ESTATUS_CANCEL', 3);
+
+// Event registration methods
+define('EREG_METHOD_WEB', 0);
+define('EREG_METHOD_ADDR1', 1);
+define('EREG_METHOD_ADDR2', 2);
+?>

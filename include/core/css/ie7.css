@@ -1,0 +1,44 @@
+/* 
+    Document   : ie7
+    Created on : May 20, 2010, 7:33:37 PM
+    Author     : Sterling
+    Description:
+        To fix all the dumb problems IE likes to create...
+*/
+
+ul {
+	margin-left: 50px;
+}
+
+#add-event ul {
+	width: 49% !important;
+}
+
+#add-event li .button span {
+	width: 100% !important;
+}
+
+#add-event ul ul {
+	width: 100% !important;
+}
+
+#add-event .uploaded-file {
+	position: static;
+	margin: 0;
+}
+
+#add-event .browse-button {
+	width: 120px;
+	top: 52px;
+}
+
+#fancybox-title-wrap {
+	background: #000;
+	border: 2px solid #fff;
+	height: 30px;
+}
+
+#event-content .event-list .extra img {
+	margin: -27px 5px 0;
+	position: relative;
+}

@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	background: url('images/body_bg.gif') #4e4e4e top left repeat-x;
+	font-size: 1em;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	margin: auto;
+	width: 970px;
+}
+
+#header {
+	background: url('images/body_top.png') bottom center no-repeat;
+	height: 175px;
+}
+
+#left-header, #right-header {
+	height: 130px;
+}
+
+#left-header {
+	background: url('images/header_left.png') top left no-repeat;
+	width: 440px;
+	float: left;
+}
+
+#right-header {
+	width: 500px;
+	padding-right: 30px;
+	float: right;
+}
+
+#content {
+	background: url('images/content_bg.png') top center repeat-y;
+	padding: 1px 40px;
+	min-height: 300px;
+}
+
+#footer {
+	background: url('images/content_bottom.png') top center no-repeat;
+	padding: 45px 40px;
+	color: #fff;
+	font-size: .85em;
+}

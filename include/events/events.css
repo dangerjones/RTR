@@ -1,0 +1,287 @@
+#event-options {
+    padding-right: 50px;
+    text-align: right;
+    font-size: .75em;
+}
+
+#event-loading {
+    padding: 2px 10px;
+}
+
+.banner-wrap {
+	text-align: center;
+}
+
+.banner-wrap img {
+	padding: 0;
+}
+
+ul.event-list {
+	padding: 0;
+}
+
+.event-list li {
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+	clear: both;
+}
+
+.event-list li.admin-control {
+	background: none;
+	border: none;
+}
+
+li.admin-control input {
+	margin-bottom: 20px;
+	float: left;
+}
+
+.event-list li.event:hover {
+	background: #e6ffdf;
+	border: 1px solid #c9e6c1;
+	color: #6ea85f;
+}
+
+.event-list li span.e-date {
+	display: inline-block;
+	margin: 0px;
+	width: 70px;
+	font-weight: bold;
+}
+
+.three-month {
+	height: 215px;
+}
+
+.three-month td {
+    border: 1px solid #dfdfdf;
+    text-align: center;
+    padding: 5px 6px;
+}
+
+.three-month thead {
+    background-color: inherit;
+}
+
+.month-container {
+    margin-bottom: 10px;
+    width: 33%;
+    float:  left;
+}
+
+td.highlight-event {
+	background: #e6ffdf;
+}
+
+li.highlight-event {
+	background: #e6ffdf;
+	border: 1px solid #c9e6c1;
+	color: #6ea85f;
+}
+
+.is-event {
+    background-color: #e6f8ff;
+}
+
+.month-container table {
+    border-collapse: collapse;
+    font-size: .6em;
+    margin: auto;
+    cursor: pointer;
+}
+
+.month-container tbody {
+    background: #fff;
+}
+
+.month-container table caption {
+	background-color: #f5f5f5;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+td.prev-month {
+    color: #cfcfcf;
+}
+
+.event-container {
+    padding: 0 20px;
+    clear: both;
+}
+
+.event-container h2 {
+	margin: 5px 0;
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.event-list li strong {
+    margin-right: 20px;
+}
+
+.event-list li.event:hover {
+    cursor: pointer;
+
+}
+
+ul.event-list li div.content {
+    display: none;
+}
+
+
+.event-wrap-off {
+    display: none;
+}
+
+.quickmonth {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.quickmonth a {
+    display: inline-block;
+    width: 6.5%;
+    padding: 5px;
+    color: #666;
+	text-decoration: none;
+}
+
+.quickmonth a.change-year {
+    padding: 0;
+    font-size: .65em;
+    width: 25px;
+}
+
+div.quickmonth a:hover {
+    color: #a42a2a;
+	text-decoration: underline;
+}
+
+#add-event {
+	font-size: .9em;
+}
+
+#add-event h3, #add-event p {
+    text-align: center;
+}
+
+#add-event p {
+	text-align: left;
+}
+
+#add-event ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	width: 50%;
+    float: left;
+}
+
+#add-event ul.race-holder {
+	clear: right;
+	float: right;
+}
+
+#add-event ul ul {
+    width: 100%;
+}
+
+#add-event span {
+    display: inline-block;
+}
+
+#add-event li span {
+    width: 25%;
+}
+
+#add-event li.level-1 span {
+    width: 25.5%;
+}
+
+#add-event li span.level-1 {
+    width: 40%;
+}
+
+#add-event li span.no-level {
+    display: inline;
+}
+
+#add-event li.level-1 {
+    padding-left: 25%;
+}
+
+#add-event li.level-1 span.level-1 {
+    width: 33.25%;
+}
+
+#add-event li.level-2 {
+    padding-left: 40%;
+}
+
+#add-event li.level-3 {
+    padding-left: 50%;
+}
+
+#add-event .ui-state-highlight {
+	clear: both;
+}
+
+#add-event li {
+	margin: 0;
+	padding: 5px 0;
+}
+
+#add-race-holder {
+	float: right;
+	clear: right;
+	width: 50%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.remove-race {
+	float: right;
+}
+
+.remove-race span {
+	width: inherit !important;
+}
+
+.toggle-shirts, .toggle-shirt-discount, .hide-question, .q-buttons {
+    display: none;
+}
+
+#toggle-other-web, #toggle-addr1, #toggle-addr2 {
+    visibility: hidden;
+}
+
+span.req {
+    font-weight: bold;
+}
+
+.extra {
+	font-style: italic;
+	float: right;
+}
+
+.extra img {
+	margin: -6px 5px;
+}
+
+.add-event-success {
+	margin: 20px auto;
+	background: #b8e3b8;
+	border: 1px solid #04c204;
+	color: #008c00;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.4em;
+	width: 50%;
+}
